@@ -1,3 +1,4 @@
+import cc from 'change-case'
 export interface NameMaker {
   [s: string]: string
 }
@@ -17,4 +18,8 @@ declare class PathToClass {
   currentPath: string
   add: (...paths: string[]) => PathToClass
   path: (...paths: string[]) => string
+}
+
+export declare interface StringMap {
+  [s: string]: string
 }

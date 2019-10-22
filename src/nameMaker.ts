@@ -1,7 +1,6 @@
-import { StringMap, NameMaker } from '../hygen'
-
-const cc = require('change-case')
-const inflection = require('inflection')
+import { NameMaker, StringMap } from './types'
+import * as cc from 'change-case'
+import inflection from 'inflection'
 
 const suffixer = {
   get: function(target: StringMap, prop: string): string {
@@ -17,7 +16,7 @@ const suffixer = {
   },
 }
 
-export const nameMaker = ({ name, ...args }: StringMap ): NameMaker=> {
+export const nameMaker = ({ name, ...args }: StringMap): NameMaker => {
   const baseData = {
     name: inflection.singularize(cc.camel(name)),
     Name: inflection.singularize(cc.pascal(name)),
