@@ -1,4 +1,6 @@
 import { NameMaker, StringMap } from './types'
+// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+// @ts-ignore
 import * as cc from 'change-case'
 import inflection from 'inflection'
 

@@ -1,4 +1,3 @@
-import cc from 'change-case'
 export interface NameMaker {
   [s: string]: string
 }
