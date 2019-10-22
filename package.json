@@ -1,0 +1,33 @@
+{
+  "name": "hygen-utilities",
+  "version": "0.1.0",
+  "description": "A set of utilities used in hygen",
+  "main": "index.js",
+  "repository": "https://github.com/anithri/hygen-example",
+  "author": "Scott M Parrish",
+  "license": "MIT",
+  "scripts": {
+    "build:lib": "tsc",
+    "build": "yarn build:lib",
+    "test": "yarn test:code",
+    "test:code": "node jest",
+    "test:watch": "node jest --watch",
+    "tsc": "tsc",
+    "pretty": "yarn pretty --fix"
+  },
+  "dependencies": {
+    "@types/node": "^12.11.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  }
+}
