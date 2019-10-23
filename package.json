@@ -1,6 +1,6 @@
 {
   "name": "hygen-utilities",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A set of utilities used in hygen",
   "main": "index.js",
   "repository": "https://github.com/anithri/hygen-example",
@@ -13,7 +13,7 @@
     "test:code": "jest",
     "test:watch": "jest --watch",
     "tsc": "tsc",
-    "pretty": "yarn pretty --fix"
+    "pretty": "yarn --fix"
   },
   "dependencies": {
     "@types/inflection": "^1.5.28",
