@@ -16,10 +16,9 @@
     "pretty": "yarn pretty --fix"
   },
   "dependencies": {
-    "@types/change-case": "^2.3.1",
     "@types/inflection": "^1.5.28",
     "@types/node": "^12.11.2",
-    "change-case": "^3.1.0",
+    "case": "^1.6.2",
     "inflection": "^1.12.0"
   },
   "devDependencies": {
